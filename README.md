@@ -1,9 +1,9 @@
 # sccm-ts-notify
-Send notification emails upon completion of a tasksequence
+Sends notification emails upon completion of a tasksequence with information regarding the tasksequence
 
-Instructions
+## Instructions
 1. Copy sccm_ts_notify.ps1 to a location on the primary SCCM server
-2. Navigate to Administration > Site Configuration > Sites in Configuration Manager
+2. Navigate to Administration > Site Configuration > Sites in Configuration Manager  
 3. Select the appropriate site and right-click > Status Filter Rules
 4. Click Create and name the new status filter rule
 5. Check Message ID and type in 11171, click Next
